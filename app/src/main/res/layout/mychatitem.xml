@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="70dp"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/card_image"
+                android:src="@drawable/ic_launcher_background" />
+
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/card_name"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="60dp"
+                android:layout_toStartOf="@+id/card_time"
+                android:padding="1dp"
+                android:text="kunal"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/card_text"
+                android:layout_width="210dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/card_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/opop"
+                android:text="have a nice day" />
+
+            <TextView
+                android:id="@+id/card_time"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="29dp"
+                android:padding="2dp"
+                android:text="yesterday" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

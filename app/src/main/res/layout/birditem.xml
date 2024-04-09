@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="239dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:id="@+id/image"
+            android:layout_margin="20dp"
+            android:src="@drawable/jai_shree_ram"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/text2"
+            android:textSize="20dp"
+            android:padding="3dp"
+            android:text="jai shree ram"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
